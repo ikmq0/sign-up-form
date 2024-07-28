@@ -79,6 +79,7 @@ label {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.8rem;
+  letter-spacing: 2px;
 }
 
 input { 
@@ -96,10 +97,6 @@ input {
 
 input:invalid { 
   border-color: var(--invalid);
-}
-
-input:focus { 
-  border-color: blue;
 }
 
 .big-text { 
